@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Recommender System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Movie Recommender System</h1>
+      <p>Discover TV shows and movies based on your interests</p>
+    </header>
+
+    <div class="search-section">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search for movies or TV shows..."
+        autocomplete="off"
+      >
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="loading" class="loading">Searching...</div>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
