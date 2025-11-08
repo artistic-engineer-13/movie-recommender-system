@@ -1,10 +1,10 @@
 const express = require('express');
 const path = require('path');
+const fetch = require('node-fetch'); // If needed
 
 const app = express();
-const PORT = 3000;
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
 app.get('/api/search', async (req, res) => {
@@ -24,6 +24,5 @@ app.get('/api/search', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Movie Recommender System running on http://localhost:${PORT}`);
-});
+// IMPORTANT: Export the app (do not listen)
+module.exports = app;
