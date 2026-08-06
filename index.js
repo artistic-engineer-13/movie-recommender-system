@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());  
 
-app.get('/api/search', async (req, res) => {
+app.get('/api/search', async (req, res) => {   
   try {
     const query = req.query.q;
     if (!query) {
