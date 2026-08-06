@@ -13,7 +13,7 @@ app.get('/api/search', async (req, res) => {
     }
 
     // fetch is built-in, no need to import it
-    const response = await fetch(`https://api.tvmaze.com/search/shows?q=${encodeURIComponent(query)}`);
+    const response = await fetch(`https://api.tvmaze.com/search/shows?q=${encodeURIComponent(query)}`);  
     const data = await response.json();
     res.json(data);
   } catch (error) {
