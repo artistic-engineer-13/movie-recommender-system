@@ -75,4 +75,4 @@ Licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 
-Created by artistic-engineer-13(Ankush Bhardwaj).. Open issues or PRs for questions, bugs, or feature requests.
+Created by artistic-engineer-13(Ankush Bhardwaj)... Open issues or PRs for questions, bugs, or feature requests.
