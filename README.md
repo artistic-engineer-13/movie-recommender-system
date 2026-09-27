@@ -12,7 +12,7 @@ This repository contains a browser-based movie recommendation demo that showcase
 
 ## Features
 
-- Client-side recommendation/demo logic (no backend required)   
+- Client-side recommendation/demo logic (no backend required)      
 - Responsive UI for desktop and mobile
 - Search/filter movies and view details
 - Easy to run locally
