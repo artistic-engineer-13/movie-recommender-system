@@ -8,7 +8,7 @@ This repository contains a browser-based movie recommendation demo that showcase
 
 - JavaScript — 48% (recommendation logic, UI behavior, data handling)
 - CSS — 42.4% (layout and styling)
-- HTML — 9.6% (markup and structure)
+- HTML — 9.6% (markup and structure)    
 
 ## Features
 
