@@ -2,7 +2,7 @@
 
 A lightweight, front-end Movie Recommender System demo built with HTML, CSS, and JavaScript.
 
-This repository contains a browser-based movie recommendation demo that showcases client-side recommendation logic, a responsive UI, and styling. It's intended as a learning / demo project for experimentation with simple recommendation techniques in the browser.
+This repository contains a browser-based movie recommendation demo that showcases client-side recommendation logic, a responsive UI, and styling. It's intended as a learning / demo project for experimentation with simple recommendation techniques in the browser. 
 
 ## Language composition
 
