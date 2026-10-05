@@ -4,4 +4,4 @@
     { "source": "/(.*)", "destination": "/public/$1" }
   ]
 }
-   
+      
